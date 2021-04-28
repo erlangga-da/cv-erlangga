@@ -3,12 +3,21 @@
 body{
     background-color: #F3F3F8 !important;
 }
-.row{
-    background: red;
+.row{/* 
+    background: red; */
     margin-top: 7rem;
 }
-#text-container{
-    background-color: blue;
+#img-container img{
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+#img-container{
+    background-color: green;
+    height: 30rem;
+}
+#text-container{/* 
+    background-color: blue; */
     margin-top: 2rem;
 }
 h1{
@@ -17,11 +26,12 @@ h1{
     letter-spacing: 18px;
     font-size: 60px;
     margin-bottom: 0;
+    margin-left: 0rem;
 }
 h2{
     font-family: 'Yellowtail', cursive;
     font-size: 55px;
-    margin-left: -4rem;
+    margin-left: -5rem;
     margin-bottom: 15px;
 }
 @media screen and (max-width: 767px) {
