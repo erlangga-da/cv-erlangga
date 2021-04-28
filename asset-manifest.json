@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cv-erlangga/static/css/main.86648976.chunk.css",
+    "main.js": "/cv-erlangga/static/js/main.601fd1c0.chunk.js",
+    "main.js.map": "/cv-erlangga/static/js/main.601fd1c0.chunk.js.map",
+    "runtime-main.js": "/cv-erlangga/static/js/runtime-main.f2c2e555.js",
+    "runtime-main.js.map": "/cv-erlangga/static/js/runtime-main.f2c2e555.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/cv-erlangga/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.447544e7.chunk.js": "/cv-erlangga/static/js/2.447544e7.chunk.js",
+    "static/js/2.447544e7.chunk.js.map": "/cv-erlangga/static/js/2.447544e7.chunk.js.map",
+    "static/js/3.3482f15c.chunk.js": "/cv-erlangga/static/js/3.3482f15c.chunk.js",
+    "static/js/3.3482f15c.chunk.js.map": "/cv-erlangga/static/js/3.3482f15c.chunk.js.map",
+    "index.html": "/cv-erlangga/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/cv-erlangga/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.86648976.chunk.css.map": "/cv-erlangga/static/css/main.86648976.chunk.css.map",
+    "static/js/2.447544e7.chunk.js.LICENSE.txt": "/cv-erlangga/static/js/2.447544e7.chunk.js.LICENSE.txt",
+    "static/media/pp.af40a5ab.jpg": "/cv-erlangga/static/media/pp.af40a5ab.jpg",
+    "static/media/smk.703ee922.jpg": "/cv-erlangga/static/media/smk.703ee922.jpg",
+    "static/media/smp.f2cdb6a7.jpg": "/cv-erlangga/static/media/smp.f2cdb6a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2c2e555.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.447544e7.chunk.js",
+    "static/css/main.86648976.chunk.css",
+    "static/js/main.601fd1c0.chunk.js"
+  ]
+}
