@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CardComponent from './component/CardComponent';
+import NavbarComponent from './component/NavbarComponent';
+import CardContainer from './container/CardContainer';
+import AboutMe from './container/AboutMe';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AboutMe />
   </React.StrictMode>,
   document.getElementById('root')
 );
