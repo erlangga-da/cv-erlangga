@@ -7,13 +7,16 @@ body{
     background: red; */
     margin-top: 7rem;
 }
-#img-container img{
-    width: 70%;
+#img-container #img{
+    width: 100%;
     float: right;
     height: 100%;
+    background-image: url(../img/pp.jpg);
+    background-size: cover;
+    border: none;
 }
-#img-container{
-    background-color: green;
+#img-container{/* 
+    background-color: green; */
     height: 30rem;
 }
 #text-container{/* 
@@ -23,7 +26,6 @@ body{
 h1{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 18px;
     font-size: 60px;
     margin-bottom: 0;
     margin-left: 0rem;

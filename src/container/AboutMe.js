@@ -11,7 +11,7 @@ export default class AboutMe extends Component {
           <Row>
             <Col sm={12} md={5}>
               <div id="img-container">
-                <img src={profile}/>
+                <div id="img"></div>
               </div>
             </Col>
             <Col sm={12} md={7}>
