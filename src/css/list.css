@@ -4,17 +4,9 @@
 #list-container{
     margin-top: 5.4rem;
 }
-#list-container h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 22px;
-}
-
 /* list style */
 #list-data{
-    margin: 2rem 0px;
+    margin: 3rem 0px;
 }
 #list-data h3{
     font-family: 'Poppins', sans-serif;

@@ -2,6 +2,22 @@
 body{
     background-color: #F3F3F8 !important;
 }
+@media screen and (max-width: 580px){
+    .container{
+        max-width: 380px;
+    }
+    #sosmed-container p{
+        display: none;
+    }
+    #sosmed-container #wrapper{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 360px){
+    .container{
+    max-width: 280px;
+}
+}
 .row{/* 
     background: red; */
     margin-top: 7rem;
@@ -42,9 +58,9 @@ body{
     margin-left: 4px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 8px;
-    font-weight: 700;
-    color: #AAAAAA;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        color: #464646;
 }
 #divider{
     margin-top: 3.3rem;
@@ -56,21 +72,40 @@ body{
         text-align: center;
     }
 }
-@media screen and (max-width: 600px) {
-    .hide {
+@media screen and (min-width: 600px) {
+    #small-text-container{
         display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    #header-row{
+        margin-top: 2.5rem;
+    }
+    #img-wrapper{
+        display: none;
+    }
+    #text-container h1{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-left: 0rem;
+        letter-spacing: .5rem;
+    }
+    #text-container p{
+        margin-top: .5rem;
+        margin-left: 4px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: 600;
+        color: #464646;
     }
 }
 /* bagian profile */
 #space-about{
     margin-top: 5.4rem !important;
-}
-#profile-container h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 22px;
 }
 #profile-container p{
     color: #464646;
@@ -98,6 +133,12 @@ body{
 }
 #sosmed-container #wrapper a{
     text-decoration: none;
+    color: black;
+    display: flex;
+}
+#sosmed-container #wrapper a #icon{
+    font-size: 22px;
+    margin-top: -2px;
 }
 #sosmed-container #wrapper a p:hover{
     color: #575757;

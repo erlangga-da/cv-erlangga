@@ -8,7 +8,7 @@ export default class AboutMe extends Component {
     return (
       <div>
         <Container>
-          <Row>
+          <Row id="header-row">
             <Col className="hide" sm={12} md={10}>
               <div id="text-container">
                 <h1>muhammad</h1>

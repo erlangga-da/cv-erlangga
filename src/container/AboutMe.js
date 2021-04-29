@@ -1,10 +1,17 @@
 import React, { Component } from "react";
+
+/* css */
 import { Container, Row, Col } from "react-bootstrap";
 import "../css/pattern.min.css";
 import "../css/index.css";
+import "../css/headerPattern.css";
+
 /* icons */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faDribbble, faGithub } from "@fortawesome/free-brands-svg-icons";
+
+/* jsx */
+import TittleHeader from "../component/TittleHeader.jsx";
 
 export default class AboutMe extends Component {
   render() {
@@ -14,7 +21,7 @@ export default class AboutMe extends Component {
           <Row id="space-about">
             <Col sm={12} md={9}>
               <div id="profile-container">
-                <h1>Profil</h1>
+              <TittleHeader judul={"profil"}/>
                 <p>
                   Saya adalah seorang siswa kelas 11 jurusan RPL dari SMKN 1
                   Bekasi, Saya memiliki ketertarikan dalam bidang desain
@@ -28,24 +35,24 @@ export default class AboutMe extends Component {
                 <Row>
                   <Col xs={4} md={12}>
                     <div id="wrapper">
-                      <FontAwesomeIcon icon={faInstagram} />
                       <a href="https://www.instagram.com/erlangga_da/">
+                        <FontAwesomeIcon id="icon" icon={faInstagram} />
                         <p>instagram</p>
                       </a>
                     </div>
                   </Col>
                   <Col xs={4} md={12}>
                     <div id="wrapper">
-                      <FontAwesomeIcon icon={faDribbble} />
-                      <a href="https://github.com/erlangga-da">
+                      <a href="https://dribbble.com/erlangga_da">
+                        <FontAwesomeIcon id="icon" icon={faDribbble} />
                         <p>Dribbble</p>
                       </a>
                     </div>
                   </Col>
                   <Col xs={4} md={12}>
                     <div id="wrapper">
-                      <FontAwesomeIcon icon={faGithub} />
-                      <a href="https://dribbble.com/erlangga_da">
+                      <a href="https://github.com/erlangga-da">
+                        <FontAwesomeIcon id="icon" icon={faGithub} />
                         <p>Github</p>
                       </a>
                     </div>
