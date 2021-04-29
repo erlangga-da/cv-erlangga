@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-import CardComponent from './component/CardComponent';
-import NavbarComponent from './component/NavbarComponent';
-import CardContainer from './container/CardContainer';
 import AboutMe from './container/AboutMe';
+import Header from './container/Header';
+import ExpAndEduContainer from './container/ExpAndEduContainer';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <AboutMe />
+    <ExpAndEduContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );

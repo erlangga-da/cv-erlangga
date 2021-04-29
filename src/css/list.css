@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;@500;600;700&family=Poppins&display=swap');
+
+/* tittle */
+#list-container{
+    margin-top: 5.4rem;
+}
+#list-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 22px;
+}
+
+/* list style */
+#list-data{
+    margin: 2rem 0px;
+}
+#list-data h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+#list-data span{
+    font-family:  'Poppins', sans-serif;
+}
