@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Sacramento&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 body{
     background-color: #F3F3F8 !important;
 }
@@ -7,34 +6,48 @@ body{
     background: red; */
     margin-top: 7rem;
 }
-#img-container #img{
-    width: 100%;
+#img-wrapper #img{
+    width: 150px;
     float: right;
-    height: 100%;
-    background-image: url(../img/pp.jpg);
+    height: 150px;
+    background-image: url(../img/pp-erlangga.jpg);
     background-size: cover;
     border: none;
+    transform:translate(30px, -30px);
+    border-radius: 50%;
 }
-#img-container{/* 
+#img-wrapper{/* 
     background-color: green; */
-    height: 30rem;
+    width: 150px;
+    height: 150px;
+    transform:translate(-30px, 30px);
+    border-radius: 50%;
 }
 #text-container{/* 
     background-color: blue; */
-    margin-top: 2rem;
+    margin-top: -.9rem;
 }
 h1{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 4.5rem;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 0;
     margin-left: 0rem;
+    letter-spacing: 1rem;
 }
-h2{
-    font-family: 'Yellowtail', cursive;
-    font-size: 55px;
-    margin-left: -5rem;
-    margin-bottom: 15px;
+p{
+    margin-top: 1.7rem;
+    margin-left: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 700;
+    color: #AAAAAA;
+}
+#divider{
+    margin-top: 3.3rem;
+    border-width: 2px;
 }
 @media screen and (max-width: 767px) {
     h1{
