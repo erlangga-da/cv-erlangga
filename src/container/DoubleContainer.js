@@ -19,6 +19,15 @@ export default class DoubleContainer extends Component {
               <CardHalfComponent id={"pengalaman"} />
             </Col>
           </Row>
+          <hr id="divider" />
+        </Container>
+
+        <Container>
+          <Row className="mt-54">
+            <Col sm={12} md={6}>
+              <CardHalfComponent id={"keahlian"} />
+            </Col>
+          </Row>
         </Container>
       </div>
     );

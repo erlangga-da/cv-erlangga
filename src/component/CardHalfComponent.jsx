@@ -28,6 +28,21 @@ const listdata = [
     namaTempat: "(Magang) PT. Brilyan Trimatra Utama, Rawa Lumbu",
     tahun: "2021",
   },
+  {
+    id: "keahlian",
+    namaTempat: "Css",
+    tahun: "2 tahun",
+  },
+  {
+    id: "keahlian",
+    namaTempat: "React js",
+    tahun: "1 bulan",
+  },
+  {
+    id: "keahlian",
+    namaTempat: "Bootstrap",
+    tahun: "4 bulan",
+  },
 ];
 
 const CardHalfComponent = (props) => {

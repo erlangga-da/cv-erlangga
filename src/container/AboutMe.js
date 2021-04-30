@@ -13,6 +13,7 @@ import { faDribbble, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 /* jsx */
 import TittleHeader from "../component/TittleHeader.jsx";
+import Fade from "react-reveal/Fade";
 
 const sosmed = [
   {
@@ -26,7 +27,7 @@ const sosmed = [
     label: "Dribbble",
   },
   {
-    link: "mailto:erlanggamuhammad94@gmail.com",
+    link: "https://instagram.com/erlangga_da",
     icon: faGithub,
     label: "Github",
   },
@@ -39,27 +40,31 @@ export default class AboutMe extends Component {
         <Container>
           <Row id="space-about">
             <Col sm={12} md={9}>
-              <div id="profile-container">
-                <TittleHeader judul={"profil"} />
-                <p>
-                  Saya adalah seorang siswa kelas 11 jurusan RPL dari SMKN 1
-                  Bekasi, Saya memiliki ketertarikan dalam bidang desain
-                  antarmuka website dan pengembangan game. Saya cukup menguasai
-                  beberapa framework seperti react js dan bootstrap.
-                </p>
-              </div>
+              <Fade bottom cascade>
+                <div id="profile-container">
+                    <TittleHeader judul={"profil"} />
+                  <p>
+                    Saya adalah seorang siswa kelas 11 jurusan RPL dari SMKN 1
+                    Bekasi, Saya memiliki ketertarikan dalam bidang desain
+                    antarmuka website dan pengembangan game. Saya cukup
+                    menguasai beberapa framework seperti react js dan bootstrap.
+                  </p>
+                </div>
+              </Fade>
             </Col>
             <Col sm={12} md={3}>
               <div id="sosmed-container">
                 <Row>
                   {sosmed.map((socials) => (
                     <Col xs={4} md={12}>
-                      <div id="wrapper">
-                        <a href={socials.link}>
-                          <FontAwesomeIcon id="icon" icon={socials.icon} />
-                          <p>{socials.label}</p>
-                        </a>
-                      </div>
+                      <Fade bottom cascade>
+                        <div id="wrapper">
+                          <a href={socials.link}>
+                            <FontAwesomeIcon id="icon" icon={socials.icon} />
+                            <p>{socials.label}</p>
+                          </a>
+                        </div>
+                      </Fade>
                     </Col>
                   ))}
                 </Row>
