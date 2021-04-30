@@ -8,10 +8,29 @@ import "../css/headerPattern.css";
 
 /* icons */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faDribbble, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { faDribbble, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 /* jsx */
 import TittleHeader from "../component/TittleHeader.jsx";
+
+const sosmed = [
+  {
+    link: "mailto:erlanggamuhammad94@gmail.com",
+    icon: faAt,
+    label: "Mail",
+  },
+  {
+    link: "https://www.instagram.com/erlangga_da/",
+    icon: faDribbble,
+    label: "Dribbble",
+  },
+  {
+    link: "mailto:erlanggamuhammad94@gmail.com",
+    icon: faGithub,
+    label: "Github",
+  },
+];
 
 export default class AboutMe extends Component {
   render() {
@@ -21,7 +40,7 @@ export default class AboutMe extends Component {
           <Row id="space-about">
             <Col sm={12} md={9}>
               <div id="profile-container">
-              <TittleHeader judul={"profil"}/>
+                <TittleHeader judul={"profil"} />
                 <p>
                   Saya adalah seorang siswa kelas 11 jurusan RPL dari SMKN 1
                   Bekasi, Saya memiliki ketertarikan dalam bidang desain
@@ -33,30 +52,16 @@ export default class AboutMe extends Component {
             <Col sm={12} md={3}>
               <div id="sosmed-container">
                 <Row>
-                  <Col xs={4} md={12}>
-                    <div id="wrapper">
-                      <a href="https://www.instagram.com/erlangga_da/">
-                        <FontAwesomeIcon id="icon" icon={faInstagram} />
-                        <p>instagram</p>
-                      </a>
-                    </div>
-                  </Col>
-                  <Col xs={4} md={12}>
-                    <div id="wrapper">
-                      <a href="https://dribbble.com/erlangga_da">
-                        <FontAwesomeIcon id="icon" icon={faDribbble} />
-                        <p>Dribbble</p>
-                      </a>
-                    </div>
-                  </Col>
-                  <Col xs={4} md={12}>
-                    <div id="wrapper">
-                      <a href="https://github.com/erlangga-da">
-                        <FontAwesomeIcon id="icon" icon={faGithub} />
-                        <p>Github</p>
-                      </a>
-                    </div>
-                  </Col>
+                  {sosmed.map((socials) => (
+                    <Col xs={4} md={12}>
+                      <div id="wrapper">
+                        <a href={socials.link}>
+                          <FontAwesomeIcon id="icon" icon={socials.icon} />
+                          <p>{socials.label}</p>
+                        </a>
+                      </div>
+                    </Col>
+                  ))}
                 </Row>
               </div>
             </Col>

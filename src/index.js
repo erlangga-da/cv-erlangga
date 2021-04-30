@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import AboutMe from './container/AboutMe';
 import Header from './container/Header';
-import ExpAndEduContainer from './container/ExpAndEduContainer';
+import DoubleContainer from './container/DoubleContainer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <AboutMe />
-    <ExpAndEduContainer />
+    <DoubleContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
