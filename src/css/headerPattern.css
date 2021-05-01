@@ -4,7 +4,7 @@
   }
 
 .header-stripe-text{
-    font-size: "HeaderMarkName";
+    font-family: "HeaderMarkName", sans-serif !important;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 10px;
