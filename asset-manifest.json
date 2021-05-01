@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-erlangga/static/css/main.7c62fc08.chunk.css",
+    "main.css": "/cv-erlangga/static/css/main.d5a5d2c8.chunk.css",
     "main.js": "/cv-erlangga/static/js/main.658b30d7.chunk.js",
     "main.js.map": "/cv-erlangga/static/js/main.658b30d7.chunk.js.map",
     "runtime-main.js": "/cv-erlangga/static/js/runtime-main.56bf35e4.js",
@@ -12,7 +12,7 @@
     "static/js/3.255b41d5.chunk.js.map": "/cv-erlangga/static/js/3.255b41d5.chunk.js.map",
     "index.html": "/cv-erlangga/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/cv-erlangga/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.7c62fc08.chunk.css.map": "/cv-erlangga/static/css/main.7c62fc08.chunk.css.map",
+    "static/css/main.d5a5d2c8.chunk.css.map": "/cv-erlangga/static/css/main.d5a5d2c8.chunk.css.map",
     "static/js/2.bbb78f21.chunk.js.LICENSE.txt": "/cv-erlangga/static/js/2.bbb78f21.chunk.js.LICENSE.txt",
     "static/media/headerPattern.css": "/cv-erlangga/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/index.css": "/cv-erlangga/static/media/pp-erlangga.131a413d.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.56bf35e4.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.bbb78f21.chunk.js",
-    "static/css/main.7c62fc08.chunk.css",
+    "static/css/main.d5a5d2c8.chunk.css",
     "static/js/main.658b30d7.chunk.js"
   ]
 }
