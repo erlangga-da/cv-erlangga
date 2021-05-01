@@ -1,21 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;@500;600;700&family=Poppins&display=swap');
+@font-face {
+  font-family: "TextNormal";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
 
 /* tittle */
-#list-container{
-    margin-top: 5.4rem;
+#list-container {
+  margin-top: 5.4rem;
 }
-.mt-54{
-    margin-top: 5.4rem;
+.mt-54 {
+  margin-top: 5.4rem;
 }
 /* list style */
-#list-data{
-    margin: 3rem 0px;
+#list-data {
+  margin: 3rem 0px;
 }
-#list-data h3{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+#list-data h3 {
+  font-family: "TextNormal";
+  font-weight: 600;
+  font-size: 19px;
 }
-#list-data span{
-    font-family:  'Poppins', sans-serif;
+#list-data span {
+  font-family: "TextNormal";
 }

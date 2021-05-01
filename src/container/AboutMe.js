@@ -22,12 +22,12 @@ const sosmed = [
     label: "Mail",
   },
   {
-    link: "https://www.instagram.com/erlangga_da/",
+    link: "https://dribbble.com/erlangga_da",
     icon: faDribbble,
     label: "Dribbble",
   },
   {
-    link: "https://instagram.com/erlangga_da",
+    link: "https://github.com/erlangga-da",
     icon: faGithub,
     label: "Github",
   },

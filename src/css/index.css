@@ -1,145 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;@500;600;700&family=Poppins&display=swap');
-body{
-    background-color: #F3F3F8 !important;
+@font-face {
+  font-family: "HeaderName";
+  src: url("../fonts/Montserrat-Regular.ttf");
 }
-@media screen and (max-width: 580px){
-    .container{
-        max-width: 380px;
-    }
-    #sosmed-container p{
-        display: none;
-    }
-    #sosmed-container #wrapper{
-        justify-content: center;
-    }
+@font-face {
+  font-family: "JobName";
+  src: url("../fonts/Montserrat-Bold.ttf");
 }
-@media screen and (max-width: 360px){
-    .container{
+@font-face {
+    font-family: "TextNormal";
+    src: url("../fonts/Poppins-Regular.ttf");
+  }
+body {
+  background-color: #f3f3f8 !important;
+}
+@media screen and (max-width: 580px) {
+  .container {
+    max-width: 380px;
+  }
+  #sosmed-container p {
+    display: none;
+  }
+  #sosmed-container #wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
     max-width: 280px;
+  }
 }
-}
-.row{/* 
+.row {
+  /* 
     background: red; */
-    margin-top: 7rem;
+  margin-top: 7rem;
 }
 /* Bagian header */
-#img-wrapper #img{
-    width: 150px;
-    float: right;
-    height: 150px;
-    background-image: url(../img/pp-erlangga.jpg);
-    background-size: cover;
-    border: none;
-    transform:translate(30px, -30px);
-    border-radius: 50%;
+#img-wrapper #img {
+  width: 150px;
+  float: right;
+  height: 150px;
+  background-image: url(../img/pp-erlangga.jpg);
+  background-size: cover;
+  border: none;
+  transform: translate(30px, -30px);
+  border-radius: 50%;
 }
-#img-wrapper{/* 
+#img-wrapper {
+  /* 
     background-color: green; */
-    width: 150px;
-    height: 150px;
-    transform:translate(-30px, 30px);
-    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  transform: translate(-30px, 30px);
+  border-radius: 50%;
 }
-#text-container{/* 
+#text-container {
+  /* 
     background-color: blue; */
-    margin-top: -.9rem;
+  margin-top: -0.9rem;
 }
-#text-container h1{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 4.5rem;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-bottom: 0;
-    margin-left: 0rem;
-    letter-spacing: 1rem;
+#text-container h1 {
+  font-family: "HeaderName";
+  line-height: 4.5rem;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-left: 0rem;
+  letter-spacing: 1rem;
 }
-#text-container p{
-    margin-top: 1.7rem;
-    margin-left: 4px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-        letter-spacing: .2rem;
-        font-weight: 600;
-        color: #464646;
+#text-container p {
+  margin-top: 1.7rem;
+  margin-left: 4px;
+  font-family: "JobName";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  color: #464646;
 }
-#divider{
-    margin-top: 3.3rem;
-    border-width: 2px;
+#divider {
+  margin-top: 3.3rem;
+  border-width: 2px;
 }
 @media screen and (max-width: 767px) {
-    h2{
-        margin-left: 0em;
-        text-align: center;
-    }
+  h2 {
+    margin-left: 0em;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 600px) {
-    #small-text-container{
-        display: none;
-    }
+  #small-text-container {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
-    #header-row{
-        margin-top: 2.5rem;
-    }
-    #img-wrapper{
-        display: none;
-    }
-    #text-container h1{
-        font-family: 'Montserrat', sans-serif;
-        line-height: 2.5rem;
-        text-transform: uppercase;
-        font-size: 30px;
-        margin-bottom: 0;
-        margin-left: 0rem;
-        letter-spacing: .5rem;
-    }
-    #text-container p{
-        margin-top: .5rem;
-        margin-left: 4px;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
-        font-weight: 600;
-        color: #464646;
-    }
+  #header-row {
+    margin-top: 2.5rem;
+  }
+  #img-wrapper {
+    display: none;
+  }
+  #text-container h1 {
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 0rem;
+    letter-spacing: 0.5rem;
+  }
+  #text-container p {
+    margin-top: 0.5rem;
+    margin-left: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    color: #464646;
+  }
 }
 /* bagian profile */
-#space-about{
-    margin-top: 5.4rem !important;
+#space-about {
+  margin-top: 5.4rem !important;
 }
-#profile-container p{
-    color: #464646;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+#profile-container p {
+  color: #464646;
+  font-family: "TextNormal";
+  font-weight: 400;
+  margin-top: 2rem;
+}
 
-    margin-top: 2rem;
+#sosmed-container {
+  margin-top: -6rem;
 }
-
-#sosmed-container{/* 
-    background-color: blue; */
-    font-family: 'Poppins', sans-serif;
-    margin-top: -6rem;
+#sosmed-container p {
+  font-family: "TextNormal";
+  margin-left: 10px;
+  margin-top: -3px;
+  color: #aaaaaa;
+  font-weight: 400;
+  transition: 0.5s;
 }
-#sosmed-container p{
-    margin-left: 10px;
-    margin-top: -3px;
-    color: #AAAAAA;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    transition: .5s;
+#sosmed-container #wrapper {
+  display: flex;
 }
-#sosmed-container #wrapper{
-    display: flex;
+#sosmed-container #wrapper a {
+  text-decoration: none;
+  color: black;
+  display: flex;
 }
-#sosmed-container #wrapper a{
-    text-decoration: none;
-    color: black;
-    display: flex;
+#sosmed-container #wrapper a #icon {
+  font-size: 22px;
+  margin-top: -2px;
 }
-#sosmed-container #wrapper a #icon{
-    font-size: 22px;
-    margin-top: -2px;
-}
-#sosmed-container #wrapper a p:hover{
-    color: #575757;
+#sosmed-container #wrapper a p:hover {
+  color: #575757;
 }
