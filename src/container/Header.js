@@ -15,7 +15,7 @@ export default class AboutMe extends Component {
         <div id="link-section"></div>
         <Container>
           <Row id="header-row">
-            <Col className="hide" sm={12} md={10}>
+            <Col className="hide" sm={12} lg={10}>
               <Fade bottom cascade>
                 <div id="text-container">
                   <h1>muhammad</h1>
@@ -24,7 +24,7 @@ export default class AboutMe extends Component {
                 </div>
               </Fade>
             </Col>
-            <Col sm={12} md={2}>
+            <Col sm={12} lg={2}>
               <div id="img-container">
                 <div id="img-wrapper" className="pattern-dots-md gray-light">
                   <div id="img"></div>

@@ -47,4 +47,19 @@ html{
         transform: translateY(-15px);
     }
 }
+@media screen and (max-width: 650px) {
+    .section{
+        background-position: center;
+    }
+    .section h2{
+        font-size: 30px;
+        letter-spacing: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section h2{
+        font-size: 20px;
+        letter-spacing: 14px;
+    }
+}
 
