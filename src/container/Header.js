@@ -12,6 +12,7 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div>
+        <div id="link-section"></div>
         <Container>
           <Row id="header-row">
             <Col className="hide" sm={12} md={10}>

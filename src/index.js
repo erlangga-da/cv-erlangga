@@ -5,9 +5,11 @@ import reportWebVitals from './reportWebVitals';
 import AboutMe from './container/AboutMe';
 import Header from './container/Header';
 import DoubleContainer from './container/DoubleContainer';
+import Parallax from "./container/Parallax";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Parallax />
     <Header />
     <AboutMe />
     <DoubleContainer />

@@ -152,3 +152,9 @@ body {
 #sosmed-container #wrapper a p:hover {
   color: #575757;
 }
+
+#link-section{
+  background-color: transparent;
+  width: 100%;
+  height: 10px;   
+}

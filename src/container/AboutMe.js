@@ -42,7 +42,7 @@ export default class AboutMe extends Component {
             <Col sm={12} md={9}>
               <Fade bottom cascade>
                 <div id="profile-container">
-                    <TittleHeader judul={"profil"} />
+                  <TittleHeader judul={"profil"} />
                   <p>
                     Saya adalah seorang siswa kelas 11 jurusan RPL dari SMKN 1
                     Bekasi, Saya memiliki ketertarikan dalam bidang desain
