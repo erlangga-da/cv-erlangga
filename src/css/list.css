@@ -4,21 +4,46 @@
 }
 
 /* tittle */
+.pengalaman .hide {
+  display: none;
+}
 #list-container {
   margin-top: 5.4rem;
 }
 .mt-54 {
   margin-top: 5.4rem;
 }
+h1.keahlian {
+  margin-bottom: 3rem;
+}
 /* list style */
 #list-data {
   margin: 3rem 0px;
 }
-#list-data h3 {
+#list-data.keahlian {
+  margin: 1.5rem 0px;
+  margin-bottom: 0;
+}
+#list-data.keahlian:first-child {
+  margin: 3rem 0px;
+  margin-bottom: 0;
+}
+#list-data h3, #list-data h4 {
   font-family: "TextNormal";
   font-weight: 600;
   font-size: 19px;
 }
+#list-data h4 {
+  text-transform: uppercase;
+}
 #list-data span {
   font-family: "TextNormal";
+}
+.pengalaman p {
+  font-size: 14px;
+}
+#list-data ul {
+  font-family: "TextNormal";
+  margin-left: 40px;
+  font-size: 14px;
 }

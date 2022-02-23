@@ -20,7 +20,8 @@ export default class AboutMe extends Component {
                 <div id="text-container">
                   <h1>muhammad</h1>
                   <h1>erlangga</h1>
-                  <p>siswa</p>
+                  <h1>darmawan</h1>
+                  <p>Rekayasa Perangkat Lunak</p>
                 </div>
               </Fade>
             </Col>

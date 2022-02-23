@@ -16,7 +16,7 @@ export default class DoubleContainer extends Component {
               <CardHalfComponent id={"pendidikan"} />
             </Col>
             <Col sm={12} md={6}>
-              <CardHalfComponent id={"pengalaman"} />
+              <CardHalfComponent id={"pengalaman"} pengalaman={true} />
             </Col>
           </Row>
           <hr id="divider" />
